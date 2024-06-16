@@ -46,14 +46,14 @@
     function login() {
       var username = document.getElementById("username");
       var pass = document.getElementById("password");
-      if (username.value == "") {
+      if (username.value === "") {
         alert("让我来看看你的名字叫什么😲");
         username.focus();
         return;
-      } else if (pass.value == "") {
+      } else if (pass.value === "") {
         alert("还记得我们的第一天吗😘");
         return;
-      } else if ((pass.value == "20210301") && (username.value == "方梓华" || "Dora" || "dora" || "方小姐" || "方宝宝")) {
+      } else if ((pass.value === "20240205") && (username.value === "孟雪" || username.value === "Michelle" || username.value === "麦麦" || username.value === "学姐" || username.value === "麦宝" || username.value === "麦麦酱")) {
         alert("验证成功✅ 叮咚 有一封信件");
         window.location.href = "main.html";
       } else {
