@@ -1,21 +1,18 @@
 //可变化的
 const siteConfig = {
-    pageTitle: "无事躺平",
-    logoText: "无事躺平",
+    pageTitle: "跳转页",
+    logoText: "会有好事发生",
     welcomeMessage: "欲望",
     quote: "Endless desire can never bring satisfaction, but only distress.",
     quoteAuthor: "— Epicurus",
     navLinks: [
-        { text: "博客", url: "https://likey.us.kg/" },
-        { text: "资源站", url: "https://v0v.us.kg/" },
-        { text: "音乐", url: "https://kfcvme50.fyi/music.html" },
-        { text: "视频与文案", url: "https://kfcvme50.fyi/" },
-        { text: "图床", url: "https://imgbed.kfcvme50.fyi/" }
+        { text: "七夕节", url: "main.html" },
+        { text: "生日", url: "happy_birthday.html" },
     ],
     footerLinks: [
-        { text: "YouTube", url: "https://www.youtube.com" },
-        { text: "Twitter", url: "https://www.twitter.com" },
-        { text: "Email", url: "mailto:ll01@anche.no" }
+        { text: "允许", url: "" },
+        { text: "一切", url: "" },
+        { text: "发生", url: "" }
     ]
 };
 
